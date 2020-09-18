@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.screen{
+    height: 1200px;
+    width: 1200px;
+    background: #000;
+    display: flex;
+}
+
+
+
+.neptune{
+    height: 1100px;
+    width: 1100px;
+    border-radius: 50%;
+    border: 1px dotted red;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    place-items: center;
+    animation: animate 25s linear infinite;
+}
+.neptune::after{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #5B6F9B;
+
+}
+@keyframes animate{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+
+
+
+.uranus{
+    height: 1000px;
+    width: 1000px;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    border: 1px dotted red;
+    margin: auto;
+    display: flex;
+    place-items: center;
+    animation: animate 25s linear infinite;
+}
+.uranus::after{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #BDE2E5;
+
+}
+
+
+
+
+
+.saturn{
+    height: 900px;
+    width: 900px;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    border: 1px dotted red;
+    margin: auto;
+    display: flex;
+    place-items: center;
+    animation: animate 25s linear infinite;
+}
+.saturn::after{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: linear-gradient(#E7C588, #3D767C);
+
+}
+
+
+
+.Jupiter{
+    height: 800px;
+    width: 800px;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    border: 1px dotted red;
+    margin: auto;
+    display: flex;
+    place-items: center;
+    animation: animate 25s linear infinite;
+}
+.Jupiter::after{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #EB8B43;
+
+}
+
+
+.mars{
+    height: 700px;
+    width: 700px;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: 1px dotted red;
+    display: flex;
+    place-items: center;
+    animation: animate 25s linear infinite;
+}
+.mars::after{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #AA785F;
+
+}
+
+
+
+
+.Earth{
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: 1px dotted red;
+    display: flex;
+    place-items: center;
+    animation: animate 25s linear infinite;
+}
+.Earth::after{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: blue;
+
+}
+
+
+
+
+
+.Venus{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    border: 1px dotted red;
+    margin: auto;
+    display: flex;
+    place-items: center;
+    animation: animate 25s linear infinite;
+}
+.Venus::after{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: orange;
+
+}
+
+
+
+
+.Mercury{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    border: 1px dotted red;
+    margin: auto;
+    display: flex;
+    place-items: center;
+    animation: animate 25s linear infinite;
+}
+.Mercury::after{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #F0B544;
+
+}
+
+
+.sun-rays-2{
+    height: 260px;
+    width: 260px;
+    background: #6c371e1c;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: fixed;
+}
+.sun-rays{
+    height: 230px;
+    width: 230px;
+    background: #6c371e6c;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: fixed;
+}
+.sun{
+    height: 200px;
+    width: 200px;
+    background: #D9681D;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: fixed;
+}
